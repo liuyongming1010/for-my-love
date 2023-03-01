@@ -37,3 +37,21 @@
     "gulp-dart-sass": "^1.0.2"
   }
 }
+
+{
+  "id": "0000",
+  "details": [
+    "<div  style='display: flex;align-content: space-around;flex-wrap: nowrap;justify-content: space-between; align-items: center;'><span>开始呢我们先听一首歌</span><img onclick=\"playMp3('zuilangmandeshi',this)\"  style='width:50px' src='img/play.png'/></div>",
+    "开始听了吗？下边的输入框告诉我一声哦～"
+  ],
+  "responses": [
+    {
+      "content": "我开始听啦～",
+      "nextAuthor": ["0000"]
+    },
+    {
+      "content": "我先不听啦～",
+      "nextAuthor": ["0000"]
+    }
+  ]
+},

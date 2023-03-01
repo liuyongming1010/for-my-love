@@ -1,6 +1,26 @@
 {
-    "fromMe": [{
-        "id": "0000",
+    "fromMe": [
+        {
+            "id": "0000",
+            "details": [
+                [
+                    "<div  style='display: flex;align-content: space-around;flex-wrap: nowrap;justify-content: space-between; align-items: center;'><span>开始呢我们先听一首歌</span><img onclick=\"playMp3('zuilangmandeshi',this)\"  style='width:50px' src='img/play.png'/></div>",
+                    "开始听了吗？下边的输入框告诉我一声哦～💕"
+                ]
+            ],
+            "responses": [
+                {
+                    "content": "我开始听啦～",
+                    "nextAuthor": ["0001"]
+                },
+                {
+                    "content": "我先不听啦～",
+                    "nextAuthor": ["0001"]
+                }
+            ]
+       },
+        {
+        "id": "0001",
         "details": [
             [
                 "💐💐💐燕姐每天开心快乐 💐💐💐",
@@ -40,15 +60,15 @@
         "responses": [
          {
             "content": "我特别想",
-            "nextAuthor": ["0001"]
+            "nextAuthor": ["0002"]
         },
          {
            "content": "我特别特别想",
-            "nextAuthor": ["0001"]
+            "nextAuthor": ["0002"]
          }
         ]
     }, {
-        "id": "0001",
+        "id": "0002",
         "details": [
             [
                 "<img src='img/kiss-my-princess.png'>",
@@ -57,17 +77,17 @@
                 "你都是我的女王😘",
                 "给你的那些承诺😙",
                 "我都会一一兑现😉",
-                "接下来我们开始微信聊天😘"
+                "想我就在跟我在微信聊天吧😘"
             ]
         ],
         "responses": [
             {
                 "content": "我就想在这里与你聊天",
-                "nextAuthor": ["0002"]
+                "nextAuthor": ["0003"]
             }
         ]
     },{
-        "id": "0002",
+        "id": "0003",
         "details": [
             [
                "你的明哥已下线"
