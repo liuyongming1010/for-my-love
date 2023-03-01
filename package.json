@@ -6,7 +6,8 @@
   "author": "WangJohn",
   "license": "MIT",
   "scripts": {
-    "preinstall": "npx npm-force-resolutions"
+    "preinstall": "npx npm-force-resolutions",
+    "anywhere":"anywhere 8877"
   },
   "resolutions": {
     "graceful-fs": "4.2.2"
