@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
-    "anywhere":"anywhere 8877"
+    "anywhere":"anywhere -p 8877 -s"
   },
   "resolutions": {
     "graceful-fs": "4.2.2"
